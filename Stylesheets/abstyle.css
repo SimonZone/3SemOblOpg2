@@ -1,0 +1,42 @@
+ body, h1, h2, h3, h4, h5, h6, p { 
+    font-family: Arial, Helvetica, Sans-Serif; 
+ }
+
+a{
+   color: black;
+}
+
+.bg-header{
+   background-color: #fff387;
+   text-align: center;
+   color: black;
+   gap: 0.5rem;
+}
+
+.bg-header-info{
+   font-size: smaller;
+   text-align: left;
+   min-width: fit-content;
+}
+
+.bg-maincontent{
+   align-items: start;
+   align-self: end;
+   gap: 3rem;
+}
+
+.bg-maincontent-item{
+   text-align: left;
+   max-width: fit-content;
+}
+
+.bg-infobox{
+   background-color: #fff387;
+   color: black;
+   gap: 0.5rem;
+}
+
+.container-fluid{
+   padding-top: calc(var(--bs-gutter-x) * .5);
+   padding-bottom: calc(var(--bs-gutter-x) * .5);
+}
